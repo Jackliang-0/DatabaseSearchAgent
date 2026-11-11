@@ -1,0 +1,30 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+
+# ---------- 敏感配置（不要提交） ----------
+conf/app_config.yaml
+.env
+
+# ---------- 日志 ----------
+logs/
+**/logs/
+*.log
+
+# ---------- 大体积模型文件（从 HuggingFace 自行下载） ----------
+docker/embedding/bge-large-zh-v1.5/
+
+# ---------- 临时文件 ----------
+.tmp_*
+
+# ---------- 本地工具（便携版 Git 等） ----------
+.tools/
