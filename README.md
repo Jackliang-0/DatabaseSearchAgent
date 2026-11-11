@@ -242,9 +242,8 @@ data: {"answer": "华北地区去年销售总额为 ..."}
 
 ## 安全与隐私
 
-- 数据库密码、大模型 API Key 等敏感信息统一放在 `conf/app_config.yaml` 与 `docker/.env`，二者均不会提交到 Git
+- 数据库密码、大模型 API Key 等敏感信息统一放在 `conf/app_config.yaml` 与 `docker/.env`
 - 仓库仅保留配置模板 `conf/app_config.example.yaml` 与 `.env.example`
-- 如果不慎提交过真实密钥，请立即在对应平台吊销并重新生成
 - `.idea/`、`.venv/`、日志目录、向量模型文件均已加入 `.gitignore`
 
 ## 说明
